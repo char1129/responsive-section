@@ -37,7 +37,6 @@ section {
 .img-flex {
   display: block;
   width: 100%;
-
 }
 
 .section-letter {
@@ -52,14 +51,13 @@ section {
   margin: 0;
   width: 100%;
   align-items: center;
+}
+
+section h2 {
   margin: 0;
 }
 
-h2 {
-  margin: 0;
-}
-
-p {
+section p {
   margin: 0;
 }
 
@@ -84,6 +82,8 @@ img {
     width: 41%;
   }
 
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -102,12 +102,11 @@ img {
     order: 3;
   }
 
-
-.section-body {
-  display: block;
-  width: 70%;
-  order: 2;
-}
+  .section-body {
+    display: block;
+    width: 70%;
+    order: 2;
+  }
 
 }
 

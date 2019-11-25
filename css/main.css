@@ -18,10 +18,61 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .wrapper {
-  display: flex;
-  flex-wrap: wrap;
   background-color: #e5c30a;
+  /* margin: 0;
+  padding: 0; */
+  /* max-width: 45em; */
+  padding: 1.3rem 1.3rem;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.img-flex {
+  margin: 0;
+  /* padding: 0 0 1rem; */
+  display: flex;
+  max-width: 45em;
+  flex-wrap: wrap;
+
+}
+
+.section-letter {
+  margin: 0;
+  display: block;
+  width: 50%;
+}
+
+.section-icon {
+  margin: 0;
+  display: block;
+  width: 50%;
+}
+
+.section-body {
+  margin: 0;
+  align-items: center;
+  /* padding: 0 0 1.3rem; */
+}
+
+h2 {
+  margin: 0;
+    /* padding: 0 1rem; */
+}
+
+p {
+  margin: 0;
+  max-width: 45em;
+  /* padding: 0 1rem;*/
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -32,19 +83,31 @@ html {
     margin: 0 0 1.4rem;
   }
 
-  .img-flex {
-    display: block;
-    width: 100%;
+  .wrapper {
+    /* margin: 0;
+    padding: 0; */
+    /* max-width: 45em; */
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
   }
-  .section-letter, .section-icon {
+
+  /* .section-letter {
+    margin: 0;
     display: block;
     width: 50%;
   }
 
-  .selection-body {
-
+  .section-icon {
+    margin: 0;
+    display: block;
+    width: 50%;
   }
 
+  .section-body {
+    margin: 0;
+    align-items: center;
+  } */
 }
 
 @media only screen and (min-width: 38em) {
